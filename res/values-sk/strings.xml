@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">testujdrive</string>
+    <string name="dummy_button">Foto on drive</string>
+    <string name="dummy_button2">DEMO drive</string>
+    <string name="dummy_button3">button3</string>
+    <string name="dummy_content">SOME\nCONTENT</string>
+
+</resources>
