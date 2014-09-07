@@ -1,4 +1,4 @@
 snowSMSden
 ==========
 
-app projekt_cislo2
+android app powered by Eurosecom in AndroidStudio
