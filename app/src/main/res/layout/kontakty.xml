@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" >   
+
+        <TextView
+    	android:id="@+id/inputxxx"
+    	android:visibility="gone"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" />
+        
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+              
+        <Button android:id="@+id/btnRefresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/popisbtnrefresh" />
+        
+        
+        <EditText android:id="@+id/inputFind"
+        android:inputType="text"    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:layout_marginBottom="15dp" />
+        
+
+                 
+        <fragment class="com.eusecom.snowsmsden.KontaktyFragment"
+            android:id="@+id/seznam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    
+         </LinearLayout> 
+
+</FrameLayout>

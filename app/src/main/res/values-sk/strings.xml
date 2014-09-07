@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">snowSMSden</string>
+    
+    <string name="kontakty">Kontakty</string>
+    <string name="spravy">Správy</string>
+    <string name="mojekontakty">Moje kontakty</string>
+    <string name="mojespravy">Moje správy</string>
+    <string name="newsmsrec">Nová SMS prijatá</string>
+    <string name="newsmsnotify">Nová SMS upozornenie</string>
+    <string name="newsmsclick">Nová SMS Click</string>
+   
+    
+    <string name="preferences">Nastavenia</string>
+    <string name="settings">Nastavenia</string>
+    <string name="notifications_title">Upozornenie na prijátú SMS po ukončení aplikácie</string>
+    <string name="repository_title">Úložisko správ</string>
+    <string name="repository_summary">0=Cloud MySQL, 1=Google Drive - Pripravujeme</string>
+    <string name="nickname_title">Užívateľov nickname</string>
+    <string name="nickname_summary">Pre identifikáciu.</string>
+    <string name="userid_title">Číslo užívateľa</string>
+    <string name="userid_summary">Nastaví program po prvom načítaní správ po výbere kontaktu.</string>
+    <string name="prefrepuser">Nastavenia úložiska a užívateľa</string>
+	<string name="prefrep">Nastavenia úložiska</string>
+	<string name="prefuser">Nastavenia užívateľa</string>
+	<string name="prefother">Iné nastavenia</string>
+	<string name="namecloud_title">Názov MySql cloud</string>
+    <string name="namecloud_summary">Názov MySql cloud pre úložisko.</string>
+    <string name="namedrive_title">Názov GoogleDrive súboru</string>
+    <string name="namedrive_summary">Názov GoogleDrive súboru pre úložisko.</string>
+    <string name="userpsw_title">Heslo užívateľa</string>
+    <string name="userpsw_summary">Heslo užívateľa pre prihlásenie do aplikácie.</string>
+    <string name="usercode_title">Kód užívateľa</string>
+    <string name="usercode_summary">Kód užívateľa pre kódovanie správ, max. 8 znakov.</string>
+    <string name="hladanie_title">Hladať kontakt</string>
+    <string name="hladanie_summary">0=nie, 1=áno.</string>
+    <string name="hladajtext_title">Text pre hľadanie v kontaktoch.</string>
+    <string name="hladajtext_summary">0=nie, 1=áno.</string>
+    <string name="newsms_title">Nová prijatá správa.</string>
+	<string name="newsms_summary">Program po prijatí novej správy pošle upozornenie.</string>
+    <string name="okpristup_title">autorizovaný prístup</string>    
+	
+    <string name="action_newcontact">Nový</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_hladajcontact">Hľadať</string>
+    <string name="action_hladajspravy">Vyber správu</string>
+    <string name="action_exitspravy">Exit</string>
+    <string name="xspravy">Zoznam správ</string>
+    <string name="action_newxsprava">Nová položka</string>
+    <string name="contactsaved">Kontakt %s uložený</string>
+    <string name="contactdeleted">Kontakt %s vymazaný</string>
+    <string name="progdata">Čítanie dát. Prosím čakajte.</string>
+    <string name="nosms">žiadne správy</string>
+    <string name="receivedsms">Nová prijatá správa !</string>
+	<string name="receivedsmsfrom">Nová prijatá správa od kontaktu </string>
+    
+    <string name="ok">OK</string>
+	<string name="cancel">Zrušiť</string>
+	<string name="add_title">Pridať správu</string>
+	<string name="update_title">Upraviť správu</string>
+	<string name="delete_title">Vymazať správu</string>
+	<string name="message1">správa A</string>
+	<string name="message2">správa B</string>
+	<string name="potrebujeteinternet">Pre plnú funkciu programu potrebujete pripojenie do Internetu !</string>
+    <string name="niejeinternet">Nemáte pripojenie do Internetu !</string>
+    <string name="textok">OK</string>
+    <string name="textyes">Áno</string>
+    <string name="textno">Nie</string>
+    <string name="byedcomsk">by EDcom.sk</string>
+    <string name="textmy">Moje</string>
+    <string name="textme">Mne</string>
+    <string name="textall">Všetko</string>
+    <string name="konthladaj">Hladať</string>
+    <string name="number">Číslo</string>
+    <string name="nickname">Nickname</string>
+    <string name="xcode">Memo</string>
+    <string name="delete_contact">Vymazať kontakt ?</string>
+    <string name="mynumber">Moje číslo</string>
+    
+    <string name="image1">Obrázok 1</string>
+    <string name="textsend">Odoslať</string>
+    <string name="popisbtnprep">Obslúžiť</string>
+	<string name="popisbtnfin">Koniec</string>
+	<string name="popisbtnrefresh">Upraviť</string>
+	<string name="popisbtnsave">Uložiť</string>
+	<string name="popisbtndelete">Zmazať</string>
+    <string name="smszmazat">Zmazať jednu správu</string>
+	<string name="allsmszmazat">Zmazať všetky správy</string>
+	<string name="zmazat">Zmazať položku</string>
+	<string name="upravit">Upraviť položku</string>
+	<string name="action_previous">Späť</string>
+	<string name="action_next">Ďalej</string>
+	<string name="mojstate_title">Štát ( skratka ) mojho bydliska</string>
+	<string name="mojstate_summary">Pre registráciu (nepovinné).</string>
+	
+	<string name="akodlhopred">pred</string>
+	<string name="akodlhoza"> </string>
+	<string name="minuta1">min.</string>
+	<string name="minuta2">min.</string>
+	<string name="hodina1">hod.</string>
+	<string name="hodina2">hod.</string>
+	<string name="den1">deň</string>
+	<string name="den2">dni</string>
+	
+	<string name="login">Login</string>
+	<string name="password">Heslo</string>
+	<string name="loginpsw">Login ( default heslo 1111 )</string>
+	<string name="wrongpsw">Nesprávne heslo</string>
+
+    
+    
+    
+    
+
+</resources>

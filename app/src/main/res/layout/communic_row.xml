@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/cidx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/cktosx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+ 
+    <TextView
+        android:id="@+id/csendx"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+		android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+        <TextView
+        android:id="@+id/crecex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+        
+        <TextView
+        android:id="@+id/creadx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    
+    <TextView
+        android:id="@+id/cmesx"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:minHeight="50dp"
+		android:layout_gravity="left"
+		android:layout_weight="4"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:gravity="left"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/cmex"
+        android:text="@string/textme"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+</LinearLayout>

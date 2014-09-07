@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eusecom.snowsmsden"
+    android:versionCode="130"
+    android:versionName="1.30" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+    
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.eusecom.snowsmsden.SnowsmsdenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.VladciActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.DetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.SpravyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.SpravyListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.KontaktyActivity"
+            android:label="@string/mojespravy" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.KontaktSpravyListActivity"
+            android:label="@string/mojespravy" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.VyberSpravuActivity"
+            android:label="@string/action_hladajspravy" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.MojeKontaktyActivity"
+            android:label="@string/mojekontakty" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.MojKontaktDetailActivity"
+            android:label="@string/mojekontakty" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.NovyKontaktActivity"
+            android:label="@string/mojekontakty" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.AkaSmsActivity"
+            android:label="@string/newsmsrec" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.SmsNotifyActivity"
+            android:label="@string/newsmsnotify" >
+        </activity>
+        <activity
+            android:name="com.eusecom.snowsmsden.NotifyClickActivity"
+            android:label="@string/newsmsclick" >
+        </activity>
+        <activity android:name="com.eusecom.snowsmsden.SettingsActivity" android:label="@string/settings"> </activity>
+		<activity android:name="com.eusecom.snowsmsden.EditPreferencesNew" android:label="@string/settings"> </activity>
+
+       
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/prefrep">
+		<ListPreference
+            android:defaultValue="0"
+            android:entries="@array/repository_names"
+            android:entryValues="@array/repository_values"
+            android:key="repository"
+            android:title="@string/repository_title" />
+		
+		<EditTextPreference
+        android:key="namecloud"
+        android:defaultValue="www.eshoptest.sk/androidsnow"
+        android:enabled="true"
+        android:summary="@string/namecloud_summary"
+        android:title="@string/namecloud_title" />
+    
+    	<EditTextPreference
+        android:key="namedrive"
+        android:defaultValue="mhfdgtr34gdh"
+        android:enabled="true"
+        android:summary="@string/namedrive_summary"
+        android:title="@string/namedrive_title" />
+
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/prefuser">
+	    
+	    <EditTextPreference
+        android:key="nickname"
+        android:summary="@string/nickname_summary"
+        android:title="@string/nickname_title" />  
+        
+    	<EditTextPreference
+        android:key="userid"
+        android:defaultValue="0"
+        android:enabled="false"
+        android:summary="@string/userid_summary"
+        android:title="@string/userid_title" />
+    	
+    	<ListPreference
+        android:key="mojstate"
+        android:defaultValue=""
+        android:entries="@array/country_titleen"
+        android:entryValues="@array/country_notes"
+        android:title="@string/mojstate_title" />
+    	
+    	<EditTextPreference
+        android:key="userpsw"
+        android:defaultValue="1111"
+        android:digits="123456789"
+        android:enabled="true"
+        android:summary="@string/userpsw_summary"
+        android:title="@string/userpsw_title" />
+    	
+    	<EditTextPreference
+        android:key="usercode"
+        android:defaultValue="89abcdef"
+        android:digits="abcdefghijklmnopqrstuvwxyz123456789"
+        android:enabled="true"
+        android:maxLength="8"
+        android:summary="@string/usercode_summary"
+        android:title="@string/usercode_title" />
+		
+	</PreferenceCategory>
+</PreferenceScreen>

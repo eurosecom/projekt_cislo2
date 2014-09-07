@@ -1,0 +1,31 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+  	<EditTextPreference
+        android:key="hladanie"
+        android:defaultValue="0"
+        android:enabled="false"
+        android:summary="@string/hladanie_summary"
+        android:title="@string/hladanie_title" />
+    
+    <EditTextPreference
+        android:key="hladajtext"
+        android:defaultValue="0"
+        android:enabled="false"
+        android:summary="@string/hladajtext_summary"
+        android:title="@string/hladajtext_title" />
+    
+    <EditTextPreference
+        android:key="newsms"
+        android:enabled="false"
+        android:defaultValue="0"
+        android:summary="@string/newsms_summary"
+        android:title="@string/newsms_title" />
+    
+    <EditTextPreference
+        android:key="okpristup"
+        android:enabled="false"
+        android:defaultValue="0"
+        android:title="@string/okpristup_title" />
+    
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/DetailActivity.java" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/DetailFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/KontaktSpravyListActivity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/KontaktSpravyListFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/KontaktyFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/MojKontaktDetailActivity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/MojKontaktDetailFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/MojeKontaktyActivity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/MojeKontaktyFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/SeznamFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/SpravyFragment.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/SpravyListActivity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/eusecom/snowsmsden/SpravyListFragment.java" charset="windows-1250" />
+  </component>
+</project>
+
