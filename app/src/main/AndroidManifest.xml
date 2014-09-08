@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eusecom.snowsmsden"
-    android:versionCode="130"
-    android:versionName="1.30" >
+    android:versionCode="140"
+    android:versionName="1.40" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="11"
         android:targetSdkVersion="20" />
     
     <!-- Internet Permissions -->
