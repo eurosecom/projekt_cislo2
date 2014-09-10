@@ -57,7 +57,7 @@ public class SmsNotifyActivity extends Activity {
        	 	java.util.Date date= new java.util.Date();
        		Timestamp ts = new Timestamp(date.getTime());
        		String tss = ts + "";
-       	 	String UpdateSql = "UPDATE mojedomeny SET datz2='" + tss + "' WHERE server2=" + names + " ";
+       	 	String UpdateSql = "UPDATE mojedomeny SET datz2='" + tss + "', mail2='" + getString(R.string.newsms) + "' WHERE server2=" + names + " ";
        	 	db2.execSQL(UpdateSql);
        	 	db2.close();
         	

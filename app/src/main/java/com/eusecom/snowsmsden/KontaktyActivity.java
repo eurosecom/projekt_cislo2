@@ -42,7 +42,7 @@ public class KontaktyActivity extends FragmentActivity implements
     		if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			 setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE); }
     		
-        	// Pokud je dostupné View s id detail, je layout dvousloupcový
+        	// Pokud je dostupny View s id detail, je layout dvousloupcove
     		mDualPane = findViewById(R.id.detail) != null;
     		
     		if (mDualPane) {
@@ -78,19 +78,19 @@ public class KontaktyActivity extends FragmentActivity implements
 	{
 	//ak je pripojenie natiahni text a obr
 
-		if (mDualPane) { // Dvousloupcový layout
+		if (mDualPane) { // Dvousloupcovy layout
 
 			KontaktSpravyListFragment f = KontaktSpravyListFragment.newInstance(index);
 
 			FragmentTransaction ft = getSupportFragmentManager()
 					.beginTransaction();
 			ft.replace(R.id.detail, f);
-			// Voláním FragmentTransaction.addToBackStack dosáhneme toho,
-			// že pøi stisknutí tlaèítka zpìt se Fragment vymìní s tím,
-			// co v R.id.detail bylo pøedtím (jiný DetailFragment nebo nic).
+			// Volbou FragmentTransaction.addToBackStack dosahneme toho,
+			// ze pri stisknuti tlacitka zpet se Fragment vymeni s tym,
+			// co v R.id.detail bylo predtym (jiny DetailFragment nebo nic).
 			ft.addToBackStack(null);
 			ft.commit();
-		} else { // Jednosloupcový layout
+		} else { // Jednosloupcovy layout
 			Intent i = new Intent(this, KontaktSpravyListActivity.class);
 			i.putExtra(KontaktSpravyListActivity.INDEX, index);
 			startActivity(i);

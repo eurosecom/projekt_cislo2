@@ -248,12 +248,11 @@ public class KontaktSpravyListFragment extends ListFragment {
             	 	
             	 	db3=(new DatabaseSpravy(getActivity())).getWritableDatabase();
             	 	
-            	 	ContentValues values=new ContentValues(2);
+            	 	ContentValues values=new ContentValues(3);
  
             		values.put("server3", kontaktcislo);
             		values.put("nick3", inputsms);
 
-            		
             		//String[] argsx={kontaktcislo};
             		//db3.delete("mojspravy", "server3=?", argsx);
             		db3.insert("mojespravy", "server3", values);
@@ -264,13 +263,13 @@ public class KontaktSpravyListFragment extends ListFragment {
             	 	java.util.Date date= new java.util.Date();
             		Timestamp ts = new Timestamp(date.getTime());
             		String tss = ts + "";
-            	 	String UpdateSql = "UPDATE mojedomeny SET datz2='" + tss + "' WHERE server2=" + kontaktcislo +"";
+                    String UpdateSql = "UPDATE mojedomeny SET datz2='" + tss + "', mail2=' ' WHERE server2=" + kontaktcislo +"";
             	 	db2.execSQL(UpdateSql);
             	 	db2.close();
             	 	
             	 	productsList = new ArrayList<HashMap<String, String>>();
          			new loadSMS().execute();
-          	   
+
              }
          });
 			

@@ -93,6 +93,7 @@
 	<string name="action_next">Ďalej</string>
 	<string name="mojstate_title">Štát ( skratka ) mojho bydliska</string>
 	<string name="mojstate_summary">Pre registráciu (nepovinné).</string>
+    <string name="newsms">nové</string>
 	
 	<string name="akodlhopred">pred</string>
 	<string name="akodlhoza"> </string>

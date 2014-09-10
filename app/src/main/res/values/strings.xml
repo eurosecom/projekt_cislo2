@@ -93,6 +93,7 @@
 	<string name="action_next">Next</string>
 	<string name="mojstate_title">Country ( shortcut ) my address</string>
 	<string name="mojstate_summary">For registration (voluntary).</string>
+    <string name="newsms">new</string>
 	
 	<string name="akodlhopred"/>
 	<string name="akodlhoza">ago</string>

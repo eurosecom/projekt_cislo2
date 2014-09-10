@@ -50,7 +50,7 @@ public class DatabaseDomeny extends SQLiteOpenHelper {
 		
 		cv2.put(SERVER2, "4679");
 		cv2.put(NICK2, "contact 4679");
-		cv2.put(MAIL2, "mail xxx");
+		cv2.put(MAIL2, " ");
 		cv2.put(UZID2, "uzid xxx");
 		cv2.put(NAME2, "name xxx");
 		cv2.put(PSWD2, "memo 1");
@@ -59,7 +59,7 @@ public class DatabaseDomeny extends SQLiteOpenHelper {
 		
 		cv2.put(SERVER2, "4684");
 		cv2.put(NICK2, "contact 4684");
-		cv2.put(MAIL2, "mail xxx2");
+		cv2.put(MAIL2, " ");
 		cv2.put(UZID2, "uzid xxx2");
 		cv2.put(NAME2, "name xxx2");
 		cv2.put(PSWD2, "memo 2");
