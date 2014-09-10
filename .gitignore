@@ -16,6 +16,10 @@
 bin/
 gen/
 
+#private class
+app/src/main/java/com/eusecom/snowsmsden/MCrypt.java
+app/src/main/java/com/eusecom/snowsmsden/MCrypt2.java
+
 # Ignore gradle files
 .gradle/
 build/
