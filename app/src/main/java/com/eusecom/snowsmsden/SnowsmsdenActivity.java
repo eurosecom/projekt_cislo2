@@ -184,8 +184,11 @@ SharedPreferences.OnSharedPreferenceChangeListener {
                @Override
                public void onReceive(Context c, Intent i) {
 
-            	   Intent ix = new Intent(c, AkaSmsActivity.class);
-                   c.startActivity(ix);
+                   //ak je pripojenie do internetu
+                   if (isOnline()) {
+                       Intent ix = new Intent(c, AkaSmsActivity.class);
+                       c.startActivity(ix);
+                   }
                       
                       }
                };
