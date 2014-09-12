@@ -78,11 +78,7 @@ public class MojeKontaktyActivity extends FragmentActivity implements
 		
 	@Override
 	public void onRulerSelected(int index) {
-		
-	//ak je pripojenie do internetu
-	if (isOnline()) 
-	{
-	//ak je pripojenie natiahni text a obr
+
 
 		if (mDualPane) { // Dvousloupcov? layout
 
@@ -102,25 +98,7 @@ public class MojeKontaktyActivity extends FragmentActivity implements
 			startActivity(i);
 		}
 		
-	//ak nie je pripojenie do internetu
-    }else{
-    	 
-        new AlertDialog.Builder(this)
-        .setTitle(getString(R.string.niejeinternet))
-        .setMessage(getString(R.string.potrebujeteinternet))
-        .setPositiveButton(getString(R.string.textok), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) { 
-              
-            	//finish();
-            }
-         })
 
-         .show();
-
-        
-
-   }
-   //koniec ak nie je Internet
 		
 		
 	}
