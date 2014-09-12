@@ -222,7 +222,9 @@ public class KontaktSpravyListFragment extends ListFragment {
 	      if (constantsCursor2.moveToPosition(index)) {
 	    	  kontaktcislo=constantsCursor2.getString(1);
 	      }
-	      
+
+            String UpdateSql = "UPDATE mojedomeny SET mail2=' ' WHERE server2=" + kontaktcislo +"";
+            db2.execSQL(UpdateSql);
 	      db2.close();
 	      
 	      mojecislo = SettingsActivity.getUserId(getActivity());

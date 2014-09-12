@@ -76,7 +76,7 @@ public class KontaktyActivity extends FragmentActivity implements
 	//ak je pripojenie do internetu
 	if (isOnline()) 
 	{
-	//ak je pripojenie natiahni text a obr
+	//ak je pripojenie
 
 		if (mDualPane) { // Dvousloupcovy layout
 

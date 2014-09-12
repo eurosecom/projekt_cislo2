@@ -43,6 +43,7 @@ public class KontaktyFragment extends ListFragment {
     EditText inputFind;
     TextView txtTitle;
     TextView txtValue;
+    TextView txtMailx2;
     
     String hladanie="0";
     String hladajtext="";
@@ -172,6 +173,8 @@ public class KontaktyFragment extends ListFragment {
         txtTitle.setTextColor(Color.BLACK);
         txtValue = (TextView) v.findViewById(R.id.value);
         txtValue.setTextColor(Color.BLACK);
+        txtMailx2 = (TextView) v.findViewById(R.id.mailx2);
+        txtMailx2.setText(" ");
 
         
         ColoredView = v;
